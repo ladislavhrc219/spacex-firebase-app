@@ -1,19 +1,4 @@
-// .sign-in {
-//   width: 30vw;
-//   display: flex;
-//   flex-direction: column;
-// }
-
-
-.sign-in {
-  width: 40vw;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(227, 233, 236);
-    padding: 30px;
-}
-
-$sub-color: rgb(165, 255, 11);
+$sub-color: rgb(149, 243, 9);
 $main-color: black;
 
 @mixin shrinkLabel {
@@ -23,15 +8,12 @@ $main-color: black;
 }
 
 .group {
-
   position: relative;
   margin: 45px 0;
-  
 
   .form-input {
-    
     background: none;
-    background-color: rgb(249, 245, 240);
+    background-color: white;
     color: $sub-color;
     font-size: 18px;
     padding: 10px 10px 10px 5px;

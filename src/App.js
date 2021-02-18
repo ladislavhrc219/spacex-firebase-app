@@ -1,10 +1,9 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import Homepage from '../src/pages/homepage.component.jsx';
-import Login from './components/directory/Test';
-import SignInSignUp from './pages/sigin-signup.pages/signin-signup.pages'
 import Header from './components/header/header.component';
 
+import SignInSignUp from './pages/sigin-signup.pages/signin-signup.pages'
 
 function App() {
   return (
@@ -22,3 +21,5 @@ function App() {
 }
 
 export default App;
+
+// import Login from './components/directory/Test';

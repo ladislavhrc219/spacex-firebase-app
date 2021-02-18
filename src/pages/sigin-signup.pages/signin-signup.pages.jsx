@@ -4,7 +4,7 @@ import SignIn from './../../components/sign-in/sign-in.comp';
 
 const SignInSignUp =()=>(
     <div className='sign-in-and-sign-up'> 
-            Sing In 
+            {/* Sing In  */}
 
 
             <SignIn/>

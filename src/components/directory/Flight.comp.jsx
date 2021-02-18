@@ -1,14 +1,11 @@
 import React, {} from 'react';
 // import './flight.styles.scss';
-
 const Flight = ({id,title, flight_number, details, event_date_utc, links}) => {
     const date= event_date_utc;
     const n = flight_number;
     const article_url = links.article;
     const wiki_url = links.wikipedia;
-
     return (
-
         <article className="single-flight"> 
 
             {/* <Search /> */}
@@ -21,7 +18,6 @@ const Flight = ({id,title, flight_number, details, event_date_utc, links}) => {
          <div className='flight-info'>
         
     <p> {details} </p>
-
             </div>
     <hp className='flight-price'> Wikipedia</hp>
     <p> 
@@ -33,11 +29,9 @@ const Flight = ({id,title, flight_number, details, event_date_utc, links}) => {
    <p> 
         <a href= {article_url} >{article_url}</a>
         </p>
-        
-        
+ 
         </footer>
-        
-            
+                
         </article>
     );
 };

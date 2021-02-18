@@ -8,7 +8,6 @@ const Loading =() => {
 
     const spacex = " spacex hot data...  ";
 
-
     return (
         <div className="loading">
             <h3> {spacex} is Loading... </h3>

@@ -1,72 +1,81 @@
 // .sign-in {
-//   width: 30vw;
+//   width: 40vw;
 //   display: flex;
 //   flex-direction: column;
 // }
 
 
 .sign-in {
-  width: 40vw;
+  // width: 40vw;
+  width: 420px;
   display: flex;
   flex-direction: column;
   background-color: rgb(213, 217, 219);
     padding: 60px;
+    .title{
+      margin:10px 0;
+    }
+
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+    }
 }
 
-$sub-color: rgb(165, 255, 11);
-$main-color: black;
+// $sub-color: rgb(165, 255, 11);
+// $main-color: black;
 
-@mixin shrinkLabel {
-  top: -14px;
-  font-size: 12px;
-  color: $main-color;
-}
+// @mixin shrinkLabel {
+//   top: -14px;
+//   font-size: 12px;
+//   color: $main-color;
+// }
 
-.group {
+// .group {
 
-  position: relative;
-  margin: 45px 0;
+//   position: relative;
+//   margin: 45px 0;
   
 
-  .form-input {
+//   .form-input {
     
-    background: none;
-    background-color: rgb(0, 0, 0);
-    color: $sub-color;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid $sub-color;
-    margin: 25px 0;
+//     background: none;
+//     background-color: rgb(0, 0, 0);
+//     color: $sub-color;
+//     font-size: 18px;
+//     padding: 10px 10px 10px 5px;
+//     display: block;
+//     width: 100%;
+//     border: none;
+//     border-radius: 0;
+//     border-bottom: 1px solid $sub-color;
+//     margin: 25px 0;
 
-    &:focus {
-      outline: none;
-    }
+//     &:focus {
+//       outline: none;
+//     }
 
-    &:focus ~ .form-input-label {
-      @include shrinkLabel();
-    }
-  }
+//     &:focus ~ .form-input-label {
+//       @include shrinkLabel();
+//     }
+//   }
 
-  input[type='password'] {
-    letter-spacing: 0.3em;
-  }
+//   input[type='password'] {
+//     letter-spacing: 0.3em;
+//   }
 
-  .form-input-label {
-    color: $sub-color;
-    font-size: 16px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition: 300ms ease all;
+//   .form-input-label {
+//     color: $sub-color;
+//     font-size: 16px;
+//     font-weight: normal;
+//     position: absolute;
+//     pointer-events: none;
+//     left: 5px;
+//     top: 10px;
+//     transition: 300ms ease all;
 
-    &.shrink {
-      @include shrinkLabel();
-    }
-  }
-}
+//     &.shrink {
+//       @include shrinkLabel();
+//     }
+//   }
+// }
